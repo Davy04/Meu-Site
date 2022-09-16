@@ -1,0 +1,50 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home-foto {
+    border: solid;
+    border-radius: 100%;
+    width: 70vw;
+    margin-top: 90px;
+}
+
+.home-nome {
+    margin-top: 20px;
+    font-size: 10vw;
+}
+
+.home-descricao {
+    color: rgb(2, 232, 204);
+    margin-top: 10px;
+    font-size: 5vw;
+}
+
+.home-icones {  
+    display: flex;
+    /* background-color: white; */
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.home-icones a {
+    width: 50px;
+    background-color: white;
+    text-decoration: 100%;
+    margin: 10px;
+    border-radius: 15%;
+}
+
+/* .home-icones a img {
+  
+} */
+
+
+
+
+
+
