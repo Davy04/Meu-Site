@@ -22,7 +22,7 @@
     font-size: 5vw;
 }
 
-.home-icones {  
+.home-icones {
     display: flex;
     /* background-color: white; */
     align-items: center;
@@ -39,12 +39,42 @@
     border-radius: 15%;
 }
 
+.home-icones_linkedin:hover {
+    background-color:rgb(87, 87, 87);
+}
+
+.home-icones_instagram:hover {
+    background-color:rgb(87, 87, 87);
+}
+
+.home-icones_github:hover {
+    background-color:rgb(87, 87, 87);
+}
+
+.home-icones_whatsapp:hover {
+    background-color:rgb(87, 87, 87);
+}
+
+.home-icones_telegram:hover {
+    background-color:rgb(87, 87, 87);
+}
+
 /* .home-icones a img {
   
 } */
 
+.curriculo {
+    color: black;
+    background-color: white;
+    margin-top: 50px;
+    padding: 15px 50px;
+    display: flex;
+    justify-content: center;
+    text-decoration: 100%;
+    border-radius: 10%;
+}
 
-
-
-
-
+.curriculo:hover {
+    background-color:rgb(87, 87, 87);
+    color:black;
+}
