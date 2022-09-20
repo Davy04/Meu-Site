@@ -1,5 +1,7 @@
 .portfolio-principal {
     padding: 24px 16px;
+    display: grid;
+    gap: 16px;
 }
 
 .titulo-port {
@@ -19,34 +21,33 @@
 .cartao-conteudo {
     padding: 16px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: auto 1fr;
+    gap: 8px;
 }
 
 .cartao-destaque {
     grid-column: span 2;
-    margin-top: 2px;
+
 }
 
 .cartao-titulo {
     font-size: 1.2rem;
     font-weight: 700;
     grid-column: span 2;
-    margin-top: 2px;
-    margin-bottom: 2px;
 }
 
 .cartao-perfil {
     color: #95999C;
     font-size: 0.9rem;
     grid-column: span 2;
-    margin-top: 2px;
+
 }
 
 .cartao-info {
     display: flex;
     align-items: center;
     color: #95999C;
-    margin-top: 2px;
+
 }
 
 .cartao-info_visualizacao::before {
@@ -63,7 +64,7 @@
     height: 40px;
     border-radius: 10px;
     font-size: 1.1rem;
-    margin-top: 4px;
+
 }
 
 .cartao-botao_play::before {
@@ -87,9 +88,9 @@
     padding-bottom: 10px;
     padding-right: 100px;
     padding-left: 100px;
-  
+
 }
 
 .cartao-botao_link::before {
-    content: "\e90b"; 
+    content: "\e90b";
 }
